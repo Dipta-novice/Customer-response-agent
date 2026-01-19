@@ -1,4 +1,4 @@
-# 🧠 Customer Response Agent (Agentic AI with LangGraph)
+# 🧠 Customer Response Agent (Agentic AI with Langchain)
 
 An **agentic AI system** that automatically processes customer emails related to orders, fetches order details using tools, drafts a **customer-addressed response**, and sends it for **human review** — all exposed via a **FastAPI backend**.
 
@@ -23,7 +23,7 @@ Customer Email
      ↓
 FastAPI Endpoint
      ↓
-LangGraph Agent
+Langchain Agent
  ├─ Extract Order ID & Issue
  ├─ Call Order DB Tool
  ├─ Draft Polite Response (User-addressed)
@@ -53,7 +53,6 @@ customer-response-agent/
 * **Python 3.10+**
 * **FastAPI** – API layer
 * **LangChain** – agent + tool abstractions
-* **LangGraph** – agentic orchestration
 * **Google Gemini 2.5 Flash** – LLM
 * **Uvicorn** – ASGI server
 
