@@ -1,0 +1,7 @@
+fastapi 
+uvicorn 
+langchain 
+langchain-community
+ sqlalchemy
+  pydantic 
+langchain_google_genai
