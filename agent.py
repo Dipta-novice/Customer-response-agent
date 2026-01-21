@@ -6,7 +6,7 @@ from tools import orders_database_query, request_review
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
-    api_key="4U"
+    api_key="AIzaSyBX1nyLenr0MeFJo1YwaEILn9rzHHtVa4U"
 )
 
 tools = [orders_database_query, request_review]
